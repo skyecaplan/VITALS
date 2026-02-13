@@ -110,9 +110,10 @@ authors:
       U.S. Geological Survey, Earth Resources 
       Observation and Science Center
     orcid: 'https://orcid.org/0000-0003-2645-3449'
-repository-code: 'https://github.com/nasa/EMIT-Data-Resources'
+repository-code: 'https://github.com/nasa/VITALS'
 abstract: >-
   This repository contains guides and Jupyter Notebooks designed
-  to help users access and work with data from VSWIR and TIR
-  instruments.
+  to help users find and fuse data from multiple instruments with
+  a focus on VSWIR and TIR data from ECOSTRESS, EMIT, AVIRIS-3,
+  PACE, and NEON.
 license: Apache-2.0
