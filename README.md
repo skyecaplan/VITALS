@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![Cite this repo](https://img.shields.io/badge/Cite-VITALS-blue)](https://github.com/nasa/VITALS/blob/main/CITATION.cff)
 
-Welcome to the **VSWIR Imaging and Thermal Applications, Learning, and Science** Repository! This repository provides Python Jupyter notebooks to help users work with visible to short-wave infrared imaging spectroscopy data, thermal infrared data, and other products from the Earth Surface Mineral Dust Source Investigation (EMIT) mission, ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission, and others. 
+Welcome to the **VSWIR Imaging and Thermal Applications, Learning, and Science** Repository! This repository provides Python Jupyter notebooks to help users work with visible to short-wave infrared imaging spectroscopy data, thermal infrared data, and other related products from the Earth Surface Mineral Dust Source Investigation (EMIT) instrument, ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) instrument, Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) instrument, Airborne Visible InfraRed Imaging Spectromerter (AVIRIS-3) instrument, and the National Ecologial Observation Network (NEON) Imaging Spectrometer. 
 
 > **2025 VSWIR-TIR Fundamentals to use Hyperspectral and Thermal NASA Earth Observations Workshop**  
 >
@@ -27,13 +27,13 @@ Clone or download the [VITALS repository](https://github.com/nasa/VITALS).
 | **[Exploring EMIT L2A Reflectance](/python/Exploring_EMIT_L2A_RFL.ipynb)** | Jupyter Notebook | Search, access, and work with EMIT L2A Reflectance data |
 | **[Exploring ECOSTRESS L2T LSTE](/python/Exploring_ECOSTRESS_L2T_LSTE.ipynb)** | Jupyter Notebook | Search, access, and work with ECOSTRESS L2T Land Surface Temperature and Emissivity data |
 | **[Exploring PACE OCI L2 Surface Reflectance](/python/Exploring_PACE_OCI_L2_SFRFL.ipynb)** | Jupyter Notebook | Search, access, and work with PACE OCI L2 Surface Reflectance data |
-| **[Finding Coincident Airborne and Orbital Data](/python/Finding_Coincident_Airborne_and_Orbital_Data.ipynb)** | Jupyter Notebook | Find spatially and temporally coincident airborne and orbital data |
+| **[Finding Coincident Airborne and Orbital Data](/python/Finding_Coincident_Airborne_and_Orbital_Data.ipynb)** | Jupyter Notebook | Find spatially and temporally coincident airborne and orbital data (EMIT, ECOSTRESS, AVIRIS-3) |
 | **EMIT & ECOSTRESS Tutorials** | | |
 | **[1. Finding Concurrent Data](/python/EMIT_ECOSTRESS/01_Finding_Concurrent_Data.ipynb)** | Jupyter Notebook | Search and filter for concurrent EMIT and ECOSTRESS data |
-| **[2. Working with EMIT Reflectance and ECOSTRESS LST](/python/emit_ecostress/02_Working_with_EMIT_Reflectance_and_ECOSTRESS_LST.ipynb)** | Jupyter Notebook | Stream and work with concurrent EMIT and ECOSTRESS data |
+| **[2. Working with EMIT Reflectance and ECOSTRESS LST](/python/emit_ecostress/02_Working_with_EMIT_Reflectance_and_ECOSTRESS_LST.ipynb)** | Jupyter Notebook | Streaming, Downloading and Co-Registering concurrent EMIT and ECOSTRESS data |
 | **[3. EMIT CWC from Reflectance](/python/emit_ecostress/03_EMIT_CWC_from_Reflectance.ipynb)** | Jupyter Notebook | Calculate Canopy Water Content from EMIT reflectance |
-| **[4. Dangermond Land Cover](/python/emit_ecostress/04_Dangermond_Land_Cover.ipynb)** | Jupyter Notebook | Land cover analysis at the Dangermond Preserve |
-| **[5. SB Vineyards](/python/emit_ecostress/05_SB_Vineyards.ipynb)** | Jupyter Notebook | Vineyard analysis using EMIT and ECOSTRESS data |
+| **[4. Dangermond Land Cover](/python/emit_ecostress/04_Dangermond_Land_Cover.ipynb)** | Jupyter Notebook | Canopy Water Content and Land Surface Temperature of Invasive Plants at Dangermond Preserve |
+| **[5. SB Vineyards](/python/emit_ecostress/05_SB_Vineyards.ipynb)** | Jupyter Notebook | Vineyard Vegetation Health using EMIT and ECOSTRESS data |
 | **EMIT & NEON Tutorials** | | |
 | **[1. Finding Co-located NEON EMIT Data](/python/emit_neon/01_Finding_Co-located_NEON_EMIT_Data_NIWO.ipynb)** | Jupyter Notebook | Find co-located NEON and EMIT reflectance data at Niwot Ridge |
 | **[2. Exploring NEON and EMIT Reflectance Data](/python/emit_neon/02_Exploring_NEON_and_EMIT_Reflectance_Data_NIWO.ipynb)** | Jupyter Notebook | Explore and compare NEON and EMIT reflectance data |
@@ -42,7 +42,7 @@ Clone or download the [VITALS repository](https://github.com/nasa/VITALS).
 | **[2. Align PACE EMIT Grids](/community_contributed/emit_pace/02_Align_PACE_EMIT_Grids.ipynb)** | Jupyter Notebook | Align and resample PACE and EMIT data grids |
 
 ## Citation
-If you use this resource or an associated data product for your research, we appreciate a citation.
+This repository is the product of a collaborative effort from several teams including the NASA Land Processes Distributed Active Archive Center (DAAC), NASA Jet Propulsion Laboratory, the National Ecological Observatory Network (NEON), NASA Ocean Biology DAAC, and NASA Oak Ridge National Laboratory DAAC. If you use this resource or an associated data product for your research, we appreciate a citation.
 
 [![Cite this repo](https://img.shields.io/badge/Cite-VITALS-blue)](https://github.com/nasa/VITALS/blob/main/CITATION.cff)
 
@@ -55,6 +55,11 @@ For each data product used, you can retrieve a citation in your desired format f
 |ECOSTRESS Tiled Evapotranspiration Instantaneous and Daytime L3 Global 70 m|https://doi.org/10.5067/ECOSTRESS/ECO_L3T_JET.002|ECO_L3T_JET|
 |PACE OCI Level-2 Regional Surface Reflectance Data|https://doi.org/10.5067/PACE/OCI/L2/SFREFL/3.1|PACE_OCI_L2_SFREFL|
 
+## Contributors
+
+If you would like to contribute, please view our [contributing guide](CONTRIBUTING.md).
+
+[![Contributors](https://contrib.rocks/image?repo=nasa/vitals)](https://github.com/nasa/vitals/graphs/contributors)
 
 ## Related Resources
 

@@ -32,16 +32,18 @@ website:
     contents:
       - section: "Welcome"
         contents:
-        - text: "VSWIR-TIR Fundamentals"
-          href: index.qmd
-        - text: "2025 SBG Workshop"
-          href: "2025_sbg_workshop.qmd"
-        - text: "2024 SBG Workshop"
-          href: 2024_sbg_workshop.qmd
-        - text: "2023 AGU Workshop"
-          href: 2023_agu_workshop.qmd
         - text: "Repository Description"
-          href: vitals.qmd
+          href: index.qmd
+      - section: "Workshops"
+        contents:
+        - text: "VSWIR-TIR Fundamentals"
+          href: workshops/2025_VSWIR_TIR_Fundamentals.qmd
+        - text: "2025 SBG Workshop"
+          href: workshops/2025_sbg_workshop.qmd
+        - text: "2024 SBG Workshop"
+          href: workshops/2024_sbg_workshop.qmd
+        - text: "2023 AGU Workshop"
+          href: workshops/2023_agu_workshop.qmd
       - section: "Setup Instructions"
         contents:
         - text: "Prerequisites"
